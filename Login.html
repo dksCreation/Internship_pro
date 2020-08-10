@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="assets/sparrow favicon.png" type="image/x-icon">
+	<title>Mexeon</title>
+	<script type="text/javascript">
+    /*for Generating Captcha*/
+     
+    var captcha;
+    function generateCaptcha() {
+      
+      var a = Math.floor((Math.random() * 10));
+      var b = Math.floor((Math.random() * 10));
+      var c = Math.floor((Math.random() * 10));
+      var d = Math.floor((Math.random() * 10));
+      var e = Math.floor((Math.random() * 10));
+
+      captcha=a.toString()+b.toString()+c.toString()+d.toString()+e.toString();
+
+      document.getElementById("captcha").value = captcha;
+
+    }
+
+    function check(){
+
+      var input=document.getElementById("inputText").value;
+
+      if(input==captcha){
+
+      }
+      else{
+
+        alert("Please enter valid Captcha");
+      }
+    }
+
+
+    /*Here is First Name Validation*/
+    function validateFirstName(){
+			var fName=document.getElementById("firstName").value;
+			if(fName.length<2){
+				document.getElementById("name").style.color="black";
+				document.getElementById("name").innerHTML="InValid Name";
+			}
+			else{
+				document.getElementById("name").style.color="white";
+				document.getElementById("name").innerHTML="Valid";
+			}
+		}
+
+
+    /*Here is Last Name Validation*/
+
+    function validateLastName(){
+      var lName=document.getElementById("lastName").value;
+      if(lName.length<2){
+        document.getElementById("last").style.color="black";
+        document.getElementById("last").innerHTML="Invalid";
+      }
+      else
+      {
+        document.getElementById("last").style.color="white";
+        document.getElementById("last").innerHTML="Valid";
+      }
+    }
+
+
+
+    /*Here is a contact validation*/
+		function validateContact(){
+			var contact=document.getElementById("phone").value;
+			if(contact.length<12){
+				document.getElementById("cont").style.color="black";
+				document.getElementById("cont").innerHTML="InValid Number";
+			}
+			else{
+				document.getElementById("cont").style.color="white";
+				document.getElementById("cont").innerHTML="Valid";
+			}
+		}
+
+
+    /*Password Validation*/
+    function validatePassword(){
+      var pass1=document.getElementById("pass1").value;
+      var pass2=document.getElementById("pass2").value;
+      if(pass1==pass2){
+        document.getElementById("passw").style.color="white";
+        document.getElementById("passw").innerHTML="Valid"
+      }
+      else{
+        document.getElementById("passw").style.color="black";
+        document.getElementById("passw").innerHTML="Invalid";
+      }
+    }
+	</script>
+
+	<style type="text/css">
+    /*Css*/
+		body{
+			background: url('Assets/Banner.png') 
+            no-repeat center center fixed;
+            font-family: cursive;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        #td{
+        	color: mediumblue;
+          font-size: 17px;
+        }
+        #td1{
+          color:#0000ff;
+        }
+        #td2{
+          color:green;
+
+        }
+        #td3{
+          color:red;
+
+        }
+
+        .input{
+          width: 80%;
+          height: 50%;
+        }
+        input{
+        	border-radius: 20px;
+            width: 70%;
+            border: none;
+            padding: 0.8rem;    
+        }
+        h1{ 
+            color:white;
+            font-weight: 100;
+        }
+        
+       
+    
+
+        .reset{
+        	width: 80%;
+        	background-color: red;
+        	border-radius: 12px;
+        	color: #fff;
+        }
+        .button{
+        	width: 60%;
+          height: 60%;
+        	background-color: red;
+        	border-radius: 12px;
+        	color: #fff;
+        }
+        #font{
+          font-family: "Tangerine",serif;
+          color: white;
+        }
+        #fonts{
+          font-family: "Tangerine",serif;
+          color: black;
+        }
+
+        .para{
+          font-family: cursive;
+          color:gray;
+           
+        }
+
+
+        .container{
+                  position:absolute;
+                  top: 45%;
+                  left: 36%; 
+                  transform: translate(-50%,-50%);
+                  width: 500px;
+                  padding: 2rem;
+                  box-sizing: border-box;
+                  box-shadow: 0 16px 26px rgba(0,0,0,0.5);
+                  border-radius: 20px;
+                  text-align: center;
+                  opacity: 0.6;
+                  background:url('');
+              }
+    </style>
+</head>
+<body onload="generateCaptcha()">
+  
+	<div class="container">
+		<h1 align="center" id="font"><Strong>LOGIN</Strong></h1>
+      		<form action="https://coursera-assessments.s3.amazonaws.com/assessments/1594739866085/7fdff7e6-c5e0-42ae-b6d2-99bc95e4c319/Welcome.html" >
+      			<table border="0" align="center">
+      				
+        <tr>
+        	<td id="td1">Email:</td><td><input class="input" type="email" id="email" placeholder="email" required></td>
+        </tr>
+        <tr>
+          <td id="td">Password:</td><td><input class="input" type="Password" name="" id="pass1" placeholder="password"  required></td><td><span id=""></span></td>
+        </tr>
+        
+          <td id="td">Captcha:</td><td><input class="input" type="text" id="captcha" disabled/></td>
+        </tr>
+        <tr>
+          <td id="td">Type-Captcha:</td><td><input class="input" type="text" id="inputText"/></td>
+        </tr>
+        
+        <tr>
+        	<td></td><td><button onclick="check()" class="button" name="Register">Login</td>
+        </tr>
+       
+    </table>
+
+	</form>
+</div>
+
+
+</body>
+</html>

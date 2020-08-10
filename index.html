@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="assets/sparrow favicon.png" type="image/x-icon">
+<title>Mexeon</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Web 1366 – 4;
+		--web-view-id: Web_1366__4;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Web_1366__4;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Web_1366__4 {
+		position: absolute;
+		width: 1366px;
+		height: 768px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Web 1366 – 4;
+		--web-view-id: Web_1366__4;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Polygon_1 {
+		fill: rgba(255,255,255,1);
+	}
+	.Polygon_1 {
+		overflow: hidden;
+		position: absolute;
+		width: 67px;
+		height: 45px;
+		transform: matrix(1,0,0,1,1273.5849,670.607) rotate(140deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Banner {
+		position: absolute;
+		width: 1366px;
+		height: 823px;
+		left: 0px;
+		top: -55px;
+		overflow: visible;
+	}
+	#Maxeon {
+		left: 87px;
+		top: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 221px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 60px;
+		color: rgba(255,255,255,1);
+		text-transform: capitalize;
+	}
+	#Group_1 {
+		position: absolute;
+		width: 278px;
+		height: 434px;
+		left: 165px;
+		top: 164px;
+		overflow: visible;
+	}
+	#Where {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 239px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Word {
+		left: 0px;
+		top: 80px;
+		position: absolute;
+		overflow: visible;
+		width: 204px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Fails {
+		left: 0px;
+		top: 160px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Music {
+		left: 0px;
+		top: 240px;
+		position: absolute;
+		overflow: visible;
+		width: 215px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Speaks {
+		left: 6px;
+		top: 328px;
+		position: absolute;
+		overflow: visible;
+		width: 273px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Product {
+		left: 683px;
+		top: 52px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Features {
+		left: 817px;
+		top: 52px;
+		position: absolute;
+		overflow: visible;
+		width: 94px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Use_Cases___ {
+		left: 944px;
+		top: 52px;
+		position: absolute;
+		overflow: visible;
+		width: 132px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Product_y {
+		left: 1081px;
+		top: 52px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_12 {
+		position: absolute;
+		width: 96px;
+		height: 87px;
+		left: 1230px;
+		top: 530px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Web_1366___5.html;
+		cursor: pointer;
+	}
+	#Ellipse_1 {
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 96px;
+		height: 87px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sparrow_Bird {
+		position: absolute;
+		width: 56px;
+		height: 76px;
+		left: 20px;
+		top: 5px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 118px;
+		height: 50px;
+		left: 1201px;
+		top: 45px;
+	}
+	#Login {
+		left: 1230px;
+		top: 51px;
+		position: absolute;
+		overflow: visible;
+		width: 67px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(6,6,6,1);
+	}
+</style>
+<script type="text/javascript">
+	function switchLocation(counter){
+		if(counter==0){
+			counter=1;
+			setTimeout(function(){
+				switchLocation(counter);
+			}, 1000);
+		}else{
+			window.location="HPage2.html";
+		}
+	}
+</script>
+
+</head>
+<body>
+<div id="Web_1366__4" style="transform-origin: 0px 0px;">
+	<svg class="Polygon_1" viewBox="0 0 67 45">
+		<path id="Polygon_1" d="M 33.49999618530273 0 L 67 45 L 0 45 Z">
+		</path>
+	</svg>
+	<img id="Banner" src="Assets/Banner.png">
+	<div id="Maxeon">
+		<span>Maxeon</span>
+	</div>
+	<div id="Group_1">
+		<div id="Where">
+			<span>Where</span>
+		</div>
+		<div id="Word">
+			<span>Word</span>
+		</div>
+		<div id="Fails">
+			<span>Fails,</span>
+		</div>
+		<div id="Music">
+			<span>Music</span>
+		</div>
+		<div id="Speaks">
+			<span>Speaks.</span>
+		</div>
+	</div>
+	<div id="Product">
+		<span>Product</span>
+	</div>
+	<div id="Features">
+		<span>Features</span>
+	</div>
+	<div id="Use_Cases___">
+		<span>Use Cases   </span>
+	</div>
+	<div id="Product_y">
+		<span>Product</span>
+	</div>
+	<div id="Group_12">
+		<svg class="Ellipse_1">
+			<ellipse id="Ellipse_1" rx="48" ry="43.5" cx="48" cy="43.5">
+			</ellipse>
+		</svg>
+		<img id="Sparrow_Bird" src="Assets/Sparrow Bird.png" onclick="switchLocation(0)">
+	</div>
+	<svg class="Rectangle_1">
+		<rect id="Rectangle_1" rx="25" ry="25" x="0" y="0" width="118" height="50">
+		</rect>
+	</svg>
+	<div id="Login">
+		<a href="Login.html">Login</a>
+	</div>
+</div>
+
+</body></html>

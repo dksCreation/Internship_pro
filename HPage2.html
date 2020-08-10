@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="assets/sparrow favicon.png" type="image/x-icon">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mexeon</title>
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Web 1366 – 5;
+		--web-view-id: Internshala;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Internshala;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Internshala {
+		position: absolute;
+		width: 1366px;
+		height: 768px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Web 1366 – 5;
+		--web-view-id: Internshala;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Banner {
+		position: absolute;
+		width: 1366px;
+		height: 823px;
+		left: 0px;
+		top: -55px;
+		overflow: visible;
+	}
+	#Maxeon {
+		left: 87px;
+		top: 22px;
+		position: absolute;
+		overflow: visible;
+		width: 221px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 60px;
+		color: rgba(255,255,255,1);
+		text-transform: capitalize;
+	}
+	#Group_1 {
+		position: absolute;
+		width: 278px;
+		height: 434px;
+		left: 165px;
+		top: 164px;
+		overflow: visible;
+	}
+	#Where {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 239px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Word {
+		left: 0px;
+		top: 80px;
+		position: absolute;
+		overflow: visible;
+		width: 204px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Fails {
+		left: 0px;
+		top: 160px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Music {
+		left: 0px;
+		top: 240px;
+		position: absolute;
+		overflow: visible;
+		width: 215px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Speaks {
+		left: 6px;
+		top: 328px;
+		position: absolute;
+		overflow: visible;
+		width: 273px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Product {
+		left: 683px;
+		top: 44px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Features {
+		left: 817px;
+		top: 44px;
+		position: absolute;
+		overflow: visible;
+		width: 94px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Use_Cases___ {
+		left: 944px;
+		top: 44px;
+		position: absolute;
+		overflow: visible;
+		width: 132px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Product_w {
+		left: 1081px;
+		top: 44px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_1 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 118px;
+		height: 50px;
+		left: 1201px;
+		top: 37px;
+	}
+	#Login {
+		left: 1230px;
+		top: 43px;
+		position: absolute;
+		overflow: visible;
+		width: 67px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(6,6,6,1);
+	}
+	#Rectangle_2 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 397px;
+		height: 320px;
+		left: 922px;
+		top: 254px;
+	}
+	#Rectangle_3 {
+		fill: rgba(127,138,197,1);
+	}
+	.Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 350px;
+		height: 135px;
+		left: 947px;
+		top: 279px;
+	}
+	#Hi_There_bi {
+		left: 990px;
+		top: 296px;
+		position: absolute;
+		overflow: visible;
+		width: 97px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 26px;
+		color: rgba(255,255,255,1);
+	}
+	#Hello_ask_Us_Anything_Share_Yo_bj {
+		left: 990px;
+		top: 338px;
+		position: absolute;
+		overflow: visible;
+		width: 256px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_4 {
+		fill: rgba(19,168,132,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_4 {
+		position: absolute;
+		overflow: visible;
+		width: 209px;
+		height: 41px;
+		left: 990px;
+		top: 492px;
+	}
+	#Path_1 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_1 {
+		overflow: visible;
+		position: absolute;
+		width: 28.826px;
+		height: 28.577px;
+		left: 1155.792px;
+		top: 498.44px;
+		transform: matrix(1,0,0,1,0,0);
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Web_1366___3.html;
+		cursor: pointer;
+	}
+	#New_Conversation_bl {
+		left: 1007px;
+		top: 501px;
+		position: absolute;
+		overflow: visible;
+		width: 138px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,255,255,1);
+	}
+	#Start_a_Conversation_bm {
+		left: 990px;
+		top: 429px;
+		position: absolute;
+		overflow: visible;
+		width: 167px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(7,7,7,1);
+	}
+	#The_team_typically_replies_in__bn {
+		left: 990px;
+		top: 457px;
+		position: absolute;
+		overflow: visible;
+		width: 265px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(155,150,150,1);
+	}
+	#Ellipse_1 {
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 53px;
+		height: 53px;
+		left: 1263px;
+		top: 583px;
+	}
+	#Polygon_1 {
+		fill: rgba(255,255,255,1);
+	}
+	.Polygon_1 {
+		overflow: hidden;
+		position: absolute;
+		width: 51px;
+		height: 46px;
+		transform: matrix(1,0,0,1,1276.0035,599.6786) rotate(140deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Sfk1ogvG_bq {
+		position: absolute;
+		width: 31px;
+		height: 24px;
+		left: 1274px;
+		top: 598px;
+		overflow: visible;
+	}
+	#Where_bb {
+		left: 165px;
+		top: 164px;
+		position: absolute;
+		overflow: visible;
+		width: 239px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Word_bc {
+		left: 165px;
+		top: 244px;
+		position: absolute;
+		overflow: visible;
+		width: 204px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Fails_bd {
+		left: 165px;
+		top: 324px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Music_be {
+		left: 165px;
+		top: 404px;
+		position: absolute;
+		overflow: visible;
+		width: 215px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Speaks_bf {
+		left: 171px;
+		top: 492px;
+		position: absolute;
+		overflow: visible;
+		width: 273px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_20 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_20 {
+		position: absolute;
+		overflow: visible;
+		width: 397px;
+		height: 320px;
+		left: 922px;
+		top: 254px;
+	}
+	#Rectangle_21 {
+		fill: rgba(127,138,197,1);
+	}
+	.Rectangle_21 {
+		position: absolute;
+		overflow: visible;
+		width: 350px;
+		height: 135px;
+		left: 947px;
+		top: 279px;
+	}
+	#Hi_There_bi {
+		left: 990px;
+		top: 296px;
+		position: absolute;
+		overflow: visible;
+		width: 97px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 26px;
+		color: rgba(255,255,255,1);
+	}
+	#Hello_ask_Us_Anything_Share_Yo_bj {
+		left: 990px;
+		top: 338px;
+		position: absolute;
+		overflow: visible;
+		width: 256px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_22 {
+		fill: rgba(19,168,132,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_22 {
+		position: absolute;
+		overflow: visible;
+		width: 209px;
+		height: 41px;
+		left: 990px;
+		top: 492px;
+	}
+	#New_Conversation_bl {
+		left: 1007px;
+		top: 501px;
+		position: absolute;
+		overflow: visible;
+		width: 138px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,255,255,1);
+	}
+	#Start_a_Conversation_bm {
+		left: 990px;
+		top: 429px;
+		position: absolute;
+		overflow: visible;
+		width: 167px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(7,7,7,1);
+	}
+	#The_team_typically_replies_in__bn {
+		left: 990px;
+		top: 457px;
+		position: absolute;
+		overflow: visible;
+		width: 265px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(155,150,150,1);
+	}
+	#Ellipse_5 {
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_5 {
+		position: absolute;
+		overflow: visible;
+		width: 53px;
+		height: 53px;
+		left: 1263px;
+		top: 583px;
+	}
+	#Polygon_5 {
+		fill: rgba(255,255,255,1);
+	}
+	.Polygon_5 {
+		overflow: hidden;
+		position: absolute;
+		width: 51px;
+		height: 46px;
+		transform: matrix(1,0,0,1,1279.0035,604.6786) rotate(140deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Sfk1ogvG_bq {
+		position: absolute;
+		width: 31px;
+		height: 24px;
+		left: 1274px;
+		top: 598px;
+		overflow: visible;
+	}
+	#Arrow {
+		position: absolute;
+		width: 31px;
+		height: 28px;
+		left: 1153px;
+		top: 498px;
+		overflow: visible;
+	}
+</style>
+<script type="text/javascript">
+		function switchLocation(counter){
+		if(counter==0){
+			counter=1;
+			setTimeout(function(){
+				switchLocation(counter);
+			}, 1000);
+		}else{
+			window.location="index.html";
+		}
+	}
+
+</script>
+</head>
+<body>
+<div id="Internshala" style="transform-origin: 0px 0px;">
+	<img id="Banner" src="Assets/Banner.png">
+	<div id="Maxeon">
+		<span>Maxeon</span>
+	</div>
+	<div id="Group_1">
+		<div id="Where">
+			<span>Where</span>
+		</div>
+		<div id="Word">
+			<span>Word</span>
+		</div>
+		<div id="Fails">
+			<span>Fails,</span>
+		</div>
+		<div id="Music">
+			<span>Music</span>
+		</div>
+		<div id="Speaks">
+			<span>Speaks.</span>
+		</div>
+	</div>
+	<div id="Product">
+		<span>Product</span>
+	</div>
+	<div id="Features">
+		<span>Features</span>
+	</div>
+	<div id="Use_Cases___">
+		<span>Use Cases   </span>
+	</div>
+	<div id="Product_w">
+		<span>Product</span>
+	</div>
+	<svg class="Rectangle_1">
+		<rect id="Rectangle_1" rx="25" ry="25" x="0" y="0" width="118" height="50">
+		</rect>
+	</svg>
+	<div id="Login">
+		<a href="Login.html">Login</a>
+	</div>
+	<svg class="Rectangle_2">
+		<rect id="Rectangle_2" rx="12" ry="12" x="0" y="0" width="397" height="320">
+		</rect>
+	</svg>
+	<svg class="Rectangle_3">
+		<rect id="Rectangle_3" rx="10" ry="10" x="0" y="0" width="350" height="135">
+		</rect>
+	</svg>
+	<div id="Hi_There_bi">
+		<span>Hi There</span>
+	</div>
+	<div id="Hello_ask_Us_Anything_Share_Yo_bj">
+		<span>Hello ask Us Anything Share Your <br>Feedback.</span>
+	</div>
+	<svg class="Rectangle_4">
+		<rect id="Rectangle_4" rx="20.5" ry="20.5" x="0" y="0" width="209" height="41">
+		</rect>
+	</svg>
+	<svg class="Path_1" viewBox="3115.792 61.214 27.217 26.988">
+		<path onclick="application.goToTargetView(event)" id="Path_1" d="M 3115.7919921875 61.21399688720703 L 3143.00927734375 74.14556121826172 L 3126.2158203125 83.14143371582031 L 3115.7919921875 88.20161437988281 L 3115.7919921875 79.76798248291016 L 3115.7919921875 76.95677185058594 L 3129.690185546875 74.14556121826172 L 3115.7919921875 70.77210235595703 L 3115.7919921875 61.21399688720703 Z">
+		</path>
+	</svg>
+	<div id="New_Conversation_bl">
+		<span>New Conversation</span>
+	</div>
+	<div id="Start_a_Conversation_bm">
+		<span>Start a Conversation</span>
+	</div>
+	<div id="The_team_typically_replies_in__bn">
+		<span>The team typically replies in a few minutes.</span>
+	</div>
+	<svg class="Ellipse_1">
+		<ellipse id="Ellipse_1" rx="26.5" ry="26.5" cx="26.5" cy="26.5">
+		</ellipse>
+	</svg>
+	<svg class="Polygon_1" viewBox="0 0 51 46">
+		<path id="Polygon_1" d="M 25.5 0 L 51.00000381469727 46 L 0 46 Z">
+		</path>
+	</svg>
+	<img id="Sfk1ogvG_bq" src="Assets/Sfk1ogvG.png">
+	<div id="Where_bb">
+		<span>Where</span>
+	</div>
+	<div id="Word_bc">
+		<span>Word</span>
+	</div>
+	<div id="Fails_bd">
+		<span>Fails,</span>
+	</div>
+	<div id="Music_be">
+		<span>Music</span>
+	</div>
+	<div id="Speaks_bf">
+		<span>Speaks.</span>
+	</div>
+	<svg class="Rectangle_20">
+		<rect id="Rectangle_20" rx="12" ry="12" x="0" y="0" width="397" height="320">
+		</rect>
+	</svg>
+	<svg class="Rectangle_21">
+		<rect id="Rectangle_21" rx="10" ry="10" x="0" y="0" width="350" height="135">
+		</rect>
+	</svg>
+	<div id="Hi_There_bi">
+		<span>Hi There</span>
+	</div>
+	<div id="Hello_ask_Us_Anything_Share_Yo_bj">
+		<span>Hello ask Us Anything Share Your <br>Feedback.</span>
+	</div>
+	<svg class="Rectangle_22">
+		<rect id="Rectangle_22" rx="20.5" ry="20.5" x="0" y="0" width="209" height="41">
+		</rect>
+	</svg>
+	<div id="New_Conversation_bl">
+		<span>New Conversation</span>
+	</div>
+	<div id="Start_a_Conversation_bm">
+		<span>Start a Conversation</span>
+	</div>
+	<div id="The_team_typically_replies_in__bn">
+		<span>The team typically replies in a few minutes.</span>
+	</div>
+	<svg class="Ellipse_5">
+		<ellipse id="Ellipse_5" rx="26.5" ry="26.5" cx="26.5" cy="26.5">
+		</ellipse>
+	</svg>
+	<svg class="Polygon_5" viewBox="0 0 51 46">
+		<path id="Polygon_5" d="M 25.5 0 L 51.00000381469727 46 L 0 46 Z">
+		</path>
+	</svg>
+	<img id="Sfk1ogvG_bq" src="Assets/Sfk1ogvG.png" onclick="switchLocation(0)">
+	<img id="Arrow" src="Assets/Arrow.png" onclick="window.location.replace('HPage3.html')">
+</div>
+
+</body></html>
+
+

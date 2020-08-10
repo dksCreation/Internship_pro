@@ -1,0 +1,671 @@
+.mediaViewInfo {
+		--web-view-name: Web 1366 – 3;
+		--web-view-id: pro;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: pro;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#pro {
+		position: absolute;
+		width: 1366px;
+		height: 768px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Web 1366 – 3;
+		--web-view-id: pro;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Banner {
+		position: absolute;
+		width: 1366px;
+		height: 823px;
+		left: 0px;
+		top: -55px;
+		overflow: visible;
+	}
+	#Group_1 {
+		position: absolute;
+		width: 278px;
+		height: 434px;
+		left: 165px;
+		top: 164px;
+		overflow: visible;
+	}
+	#Where {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 239px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Word {
+		left: 0px;
+		top: 80px;
+		position: absolute;
+		overflow: visible;
+		width: 204px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Fails {
+		left: 0px;
+		top: 160px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Music {
+		left: 0px;
+		top: 240px;
+		position: absolute;
+		overflow: visible;
+		width: 215px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Speaks {
+		left: 6px;
+		top: 328px;
+		position: absolute;
+		overflow: visible;
+		width: 273px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,255,1);
+	}
+	#Hi_There_w {
+		left: 991px;
+		top: 223px;
+		position: absolute;
+		overflow: visible;
+		width: 105px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(255,255,255,1);
+	}
+	#The_team_typically_replies_in__x {
+		opacity: 0.65;
+		left: 991px;
+		top: 259px;
+		position: absolute;
+		overflow: visible;
+		width: 262px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#we_run_on_surversparrow_y {
+		opacity: 0.66;
+		left: 1043px;
+		top: 531px;
+		position: absolute;
+		overflow: visible;
+		width: 132px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(9,8,8,1);
+	}
+	#sparrow_favicon_z {
+		position: absolute;
+		width: 22px;
+		height: 22px;
+		left: 1016px;
+		top: 528px;
+		overflow: visible;
+	}
+	#Hi_There_w {
+		left: 991px;
+		top: 223px;
+		position: absolute;
+		overflow: visible;
+		width: 105px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(255,255,255,1);
+	}
+	#The_team_typically_replies_in__x {
+		opacity: 0.65;
+		left: 991px;
+		top: 259px;
+		position: absolute;
+		overflow: visible;
+		width: 262px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#we_run_on_surversparrow_y {
+		opacity: 0.66;
+		left: 1043px;
+		top: 531px;
+		position: absolute;
+		overflow: visible;
+		width: 132px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(9,8,8,1);
+	}
+	#sparrow_favicon_z {
+		position: absolute;
+		width: 22px;
+		height: 22px;
+		left: 1016px;
+		top: 528px;
+		overflow: visible;
+	}
+	#Polygon_7 {
+		fill: rgba(255,255,255,1);
+	}
+	.Polygon_7 {
+		overflow: hidden;
+		position: absolute;
+		width: 51px;
+		height: 46px;
+		transform: matrix(1,0,0,1,1274.0035,595.6786) rotate(140deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Ellipse_11 {
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_11 {
+		position: absolute;
+		overflow: visible;
+		width: 53px;
+		height: 53px;
+		left: 1261px;
+		top: 576px;
+	}
+	#Group_8 {
+		position: absolute;
+		width: 174px;
+		height: 68px;
+		left: 1031px;
+		top: 359px;
+		overflow: visible;
+	}
+	#Rectangle_13 {
+		fill: rgba(236,241,251,1);
+	}
+	.Rectangle_13 {
+		position: absolute;
+		overflow: visible;
+		width: 174px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Path_4 {
+		fill: rgba(236,241,251,1);
+	}
+	.Path_4 {
+		overflow: visible;
+		position: absolute;
+		width: 37.098px;
+		height: 43px;
+		left: 0.072px;
+		top: 25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_16 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_16 {
+		position: absolute;
+		overflow: visible;
+		width: 337px;
+		height: 417px;
+		left: 982px;
+		top: 144px;
+	}
+	#Group_7 {
+		position: absolute;
+		width: 202px;
+		height: 57px;
+		left: 1097px;
+		top: 278px;
+		overflow: visible;
+	}
+	#Rectangle_12 {
+		fill: rgba(76,90,161,1);
+	}
+	.Rectangle_12 {
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		height: 46px;
+		left: 0px;
+		top: 0px;
+	}
+	#Path_3 {
+		fill: rgba(76,90,161,1);
+	}
+	.Path_3 {
+		overflow: visible;
+		position: absolute;
+		width: 22.333px;
+		height: 22.974px;
+		left: 179.667px;
+		top: 34.026px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Is_there_any_offline_versions_ {
+		opacity: 0.65;
+		left: 1115px;
+		top: 285px;
+		position: absolute;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_15 {
+		position: absolute;
+		width: 337px;
+		height: 79px;
+		left: 982px;
+		top: 482px;
+		overflow: visible;
+	}
+	#Rectangle_17 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(10,10,10,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_17 {
+		position: absolute;
+		overflow: visible;
+		width: 337px;
+		height: 79px;
+		left: 0px;
+		top: 0px;
+	}
+	#Write_a_reply {
+		opacity: 0.57;
+		left: 42px;
+		top: 22px;
+		position: absolute;
+		overflow: visible;
+		width: 128px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(7,7,7,1);
+	}
+	# {
+		left: 37px;
+		top: 6px;
+		position: absolute;
+		overflow: visible;
+		width: 9px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 33px;
+		color: rgba(7,7,7,1);
+	}
+	#Path_5 {
+		opacity: 0.61;
+		fill: rgba(127,138,197,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_5 {
+		overflow: visible;
+		position: absolute;
+		width: 32.912px;
+		height: 25.442px;
+		left: 283.614px;
+		top: 33px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_18 {
+		fill: rgba(127,138,197,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_18 {
+		position: absolute;
+		overflow: visible;
+		width: 305px;
+		height: 88px;
+		left: 999px;
+		top: 175px;
+	}
+	#Hi_There_bg {
+		left: 1029px;
+		top: 186px;
+		position: absolute;
+		overflow: visible;
+		width: 105px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(255,255,255,1);
+	}
+	#The_team_typically_replies_in__bh {
+		opacity: 0.65;
+		left: 1029px;
+		top: 222px;
+		position: absolute;
+		overflow: visible;
+		width: 262px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#Ellipse_12 {
+		fill: rgba(76,90,161,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_12 {
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		height: 21px;
+		left: 1008px;
+		top: 353px;
+	}
+	#we_run_on_surversparrow_bj {
+		opacity: 0.66;
+		left: 1081px;
+		top: 458px;
+		position: absolute;
+		overflow: visible;
+		width: 132px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(9,8,8,1);
+	}
+	#sparrow_favicon_bk {
+		position: absolute;
+		width: 22px;
+		height: 22px;
+		left: 1054px;
+		top: 455px;
+		overflow: visible;
+	}
+	#Maxeon {
+		left: 87px;
+		top: 22px;
+		position: absolute;
+		overflow: visible;
+		width: 221px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 60px;
+		color: rgba(255,255,255,1);
+		text-transform: capitalize;
+	}
+	#Product {
+		left: 683px;
+		top: 44px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Features {
+		left: 817px;
+		top: 44px;
+		position: absolute;
+		overflow: visible;
+		width: 94px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Use_Cases___ {
+		left: 944px;
+		top: 44px;
+		position: absolute;
+		overflow: visible;
+		width: 132px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Product_bp {
+		left: 1081px;
+		top: 44px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_31 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_31 {
+		position: absolute;
+		overflow: visible;
+		width: 118px;
+		height: 50px;
+		left: 1201px;
+		top: 37px;
+	}
+	#Login {
+		left: 1230px;
+		top: 43px;
+		position: absolute;
+		overflow: visible;
+		width: 67px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(6,6,6,1);
+	}
+	#Group_16 {
+		position: absolute;
+		width: 180px;
+		height: 60px;
+		left: 1043px;
+		top: 342px;
+		overflow: visible;
+	}
+	#Rectangle_13_bt {
+		fill: rgba(236,241,251,1);
+	}
+	.Rectangle_13_bt {
+		position: absolute;
+		overflow: visible;
+		width: 180px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+	}
+	#Path_4_bu {
+		fill: rgba(236,241,251,1);
+	}
+	.Path_4_bu {
+		overflow: visible;
+		position: absolute;
+		width: 37.098px;
+		height: 43px;
+		left: 0.072px;
+		top: 17px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Currently_we_dont_have {
+		opacity: 0.88;
+		left: 1060px;
+		top: 346px;
+		position: absolute;
+		overflow: visible;
+		width: 137px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(7,7,7,1);
+	}
+	#but_we_will_launch_soon {
+		opacity: 0.88;
+		left: 1060px;
+		top: 360px;
+		position: absolute;
+		overflow: visible;
+		width: 138px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(7,7,7,1);
+	}
+	input:focus{
+		outline: none;
+		
+	}
+	.writeareply1{
+		width: 250px;
+	}
+	#Sfk1ogvG_ct {
+		position: absolute;
+		width: 31px;
+		height: 24px;
+		left: 1272px;
+		top: 591px;
+		overflow: visible;
+	}
